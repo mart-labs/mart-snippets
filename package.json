@@ -1,0 +1,22 @@
+{
+  "name": "mart-snippets",
+  "displayName": "mart-snippets",
+  "description": "",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "publisher": "JeffersonLopez",
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "./public/icon.png",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
