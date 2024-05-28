@@ -21,5 +21,17 @@
       "};"
     ],
     "description": "Generate a React context with TypeScript"
-  }
+  },
+    "React Functional Component": {
+      "prefix": "rcomp",
+      "body": [
+        "export function ${TM_FILENAME_BASE}() {",
+        "  return (",
+        "    <div>${TM_FILENAME_BASE}</div>",
+        "  )",
+        "}"
+      ],
+      "description": "Crea un componente funcional de React con el nombre del archivo"
+    }
+  
 }
